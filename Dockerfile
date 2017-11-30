@@ -8,6 +8,6 @@ RUN add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") \
    $(lsb_release -cs) \
    stable"
-RUN apt-get install -y docker-ce
+RUN apt-get install -y docker
 
 
